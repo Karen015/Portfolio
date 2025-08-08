@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+  background: linear-gradient(135deg, #7700ff, #ff0077);
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  align-self: flex-end;
+}
+.contact {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 2rem;
+  
+  background-color: #121212; /* с небольшой прозрачностью */
+  color: #fff;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+
+}
+
+.contact a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #ffffff;
+}
+
+.contact p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}

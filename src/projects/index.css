@@ -1,0 +1,12 @@
+.projects-section {
+  padding: 2rem;
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

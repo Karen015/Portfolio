@@ -1,11 +1,18 @@
 
 import './App.css';
-import MainPage from './Home';
+import Navbar from './nav';
+import Projects from './projects';
+import MainSection from './home'
 
 function App() {
   return (
-    <div className="App">
-      <MainPage />
+    <div className="app">
+      <div className="gradient" />
+      <div className="content">
+        <Navbar />
+        <MainSection />
+        <Projects />
+      </div>
     </div>
   );
 }
