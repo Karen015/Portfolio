@@ -7,7 +7,7 @@ const WeatherSection = () => {
         <ul className="listed">
             <li>Provides current weather and multi-day forecast for any location</li>
             <li>Responsive design with localization support</li>
-            <li>Efficient asynchronous data fetching</li>
+            <li>Efficient asynchronous data fetching.</li>
         </ul>
         <p><strong>Technologies Used:</strong> React, Redux, API, CSS, React Router, WeatherAPI</p>
         <a href="https://gleeful-dango-40cbee.netlify.app/" target="_blank" rel="noreferrer">View Project</a>
