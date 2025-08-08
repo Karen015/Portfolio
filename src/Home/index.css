@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+p {
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+
+.main_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.button {
+  background: linear-gradient(135deg, #7700ff, #ff0077);
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 12px;
+  font-size: 1rem;
+  margin-bottom: 50px;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: white;
+  width: 280px;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
+}
+
+.contact {
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.gradient {
+  --size: 600px;
+  --speed: 40s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  z-index: -12132;
+  position: fixed;
+  width: var(--size);
+  height: var(--size);
+  filter: blur(calc(var(--size) / 4));
+  background-image: linear-gradient(#ad0000, #0000b7, #580058);
+  animation: rotate var(--speed) var(--easing) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transition: all 0.25s ease-out;
+  top: 10%;
+  left: 20%;
+  opacity: 0.5;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 720px) {
+  .gradient {
+    --size: 700px;
+  }
+}
