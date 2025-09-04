@@ -14,7 +14,7 @@ const OnlineShopSection = () => {
 
         <a href="https://super-licorice-5c8f8c.netlify.app/" target="_blank" rel="noreferrer">View Project</a>
         <div className="project-preview">
-           <img src="/images/listAm.png" alt="Online Shop "></img>
+           <img src="/images/listAm .png" alt="Online Shop "></img>
         </div>
     </section>
   );

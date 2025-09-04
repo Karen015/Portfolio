@@ -7,7 +7,7 @@ const MainSection = () => {
 
       <h1 className="title">Karen Aghajanyan</h1>
       <p className="subtitle">
-        Я frontend-разработчик, создающий современные и удобные интерфейсы. HTML, CSS Java Script, React, Redux, Firebase - мои основные инструменты.
+        I am a frontend developer who creates modern and user-friendly interfaces. HTML, CSS, Java Script, React, Redux, Firebase are my main tools.
       </p>
 
      
